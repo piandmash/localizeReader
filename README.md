@@ -1,5 +1,15 @@
 # Localize Reader
 
+This is our easy to use globalization and localization resource delivery module.
+
+It works on the server and in the browser.  
+
+Reference it within your package or install with ``npm install lcoalizereader``
+
+Add to your web pages by downloading the lib/localizereader.min.js file and adding it your site.
+
+## Overview
+
 This module is used to return a localized version of an object based on a culture provided.
 
 The culture is expected in language-COUNTRY format e.g. en-GB (see below for full list of standard cultures)
@@ -188,6 +198,7 @@ To run node tests run ``node test.js``
 * Uzbek (Cyrillic) - Uzbekistan = Cy-uz-UZ 
 * Uzbek (Latin) - Uzbekistan = Lt-uz-UZ 
 * Vietnamese - Vietnam = vi-VN 
+
 
 ***************************************************
 
