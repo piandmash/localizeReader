@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <title>Tests</title>
+  <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+  <style>
+.toast-message, #main { display: none }
+  </style>
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="../node_modules/chai/chai.js"></script>
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script src="scripts/require.js"></script>
+  <script src="scripts/setup.js"></script>
+  <script src="scripts/app.test.js"></script>
+  <script src="scripts/localizeReader.test.js"></script>
+  <script src="scripts/localizeReader.min.test.js"></script>
+  <script>
+      var app;
+      require.config({
+          baseUrl: 'scripts'
+      });
+      require(['app'], function (a) { app = a; mocha.run(); });
+  </script>
+</body>
+</html>

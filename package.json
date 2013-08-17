@@ -1,0 +1,40 @@
+{
+	"name": "localizeReader"
+    ,"description": "JavaScript server and client globalization and localization resource delivery"
+	,"keywords": ["javascript", "globalization", "localization", "resource provider"]
+    , "version": "0.1.0"	
+	, "author": {
+		"name": "PI & Mash"
+		, "email": "pete@piandmash.com"
+	}
+	, "maintainers": [
+		{ "name": "Pete Cleary"	}
+	]
+    ,"repository" : {
+        "type" : "git",
+        "url" : "http://github.com/piandmash/localizeReader.git"
+    }
+    ,"bugs" : {
+        "url" : "http://github.com/piandmash/localizeReader/issues"
+    }
+    ,"licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "http://github.com/piandmash/localizeReader/raw/master/LICENSE"
+        }
+    ]
+	, "main": "lib/localizeReader"
+    , "dependencies": {
+    }
+    , "devDependencies": {
+        "mocha": "latest"
+        , "chai": "latest"
+        , "grunt": "latest"
+        , "grunt-exec": "latest"
+        , "grunt-contrib-uglify": "latest"
+        , "requirejs": "latest"
+    }
+    , "scripts": {
+        "grunt": "node node_modules\\.bin\\grunt"
+    }
+}
