@@ -4,7 +4,7 @@ This is our easy to use globalization and localization resource delivery module.
 
 It works on the server and in the browser.  
 
-Reference it within your package or install with ``npm install lcoalizereader``
+Reference it within your package or install with ``npm install localizereader``
 
 Add to your web pages by downloading the lib/localizereader.min.js file and adding it your site.
 
