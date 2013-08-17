@@ -6,12 +6,7 @@
     };
 
     // global on the server, window in the browser
-    var root, previous_app;
-
-    root = this;
-    if (root != null) {
-        previous_app = root.app;
-    }  
+    var root= this;
     
     // AMD / RequireJS
     if (typeof define !== 'undefined' && define.amd) {

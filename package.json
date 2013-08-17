@@ -2,7 +2,7 @@
 	"name": "localizereader"
     ,"description": "JavaScript server and client globalization and localization resource delivery"
 	,"keywords": ["javascript", "globalization", "localization", "resource provider"]
-    , "version": "0.1.1"	
+    , "version": "0.1.2"	
 	, "author": {
 		"name": "PI & Mash"
 		, "email": "pete@piandmash.com"
