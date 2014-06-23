@@ -23,7 +23,7 @@
             "url" : "http://github.com/piandmash/localizeReader/raw/master/LICENSE"
         }
     ]
-	, "main": "lib/localizeReader"
+	, "main": "lib/localizereader"
     , "dependencies": {
     }
     , "devDependencies": {
