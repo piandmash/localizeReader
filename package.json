@@ -2,7 +2,7 @@
 	"name": "localizereader"
     ,"description": "JavaScript server and client globalization and localization resource delivery"
 	,"keywords": ["javascript", "globalization", "localization", "resource provider"]
-    , "version": "0.1.2"	
+    , "version": "0.1.3"	
 	, "author": {
 		"name": "PI & Mash"
 		, "email": "pete@piandmash.com"
@@ -12,15 +12,15 @@
 	]
     ,"repository" : {
         "type" : "git",
-        "url" : "http://github.com/piandmash/localizeReader.git"
+        "url" : "http://github.com/piandmash/localizereader.git"
     }
     ,"bugs" : {
-        "url" : "http://github.com/piandmash/localizeReader/issues"
+        "url" : "http://github.com/piandmash/localizereader/issues"
     }
     ,"licenses" : [
         {
             "type" : "MIT",
-            "url" : "http://github.com/piandmash/localizeReader/raw/master/LICENSE"
+            "url" : "https://github.com/piandmash/localizeReader/blob/master/LICENSE.md"
         }
     ]
 	, "main": "lib/localizereader"
